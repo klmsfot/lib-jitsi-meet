@@ -106,7 +106,7 @@ Moderator.prototype.onMucMemberLeft = function(jid) {
 
     if (resource === 'focus') {
         logger.info(
-            'Focus has left the room - leaving conference');
+            'Focus fixed from github has left the room - leaving conference');
         this.eventEmitter.emit(XMPPEvents.FOCUS_LEFT);
     }
 };
