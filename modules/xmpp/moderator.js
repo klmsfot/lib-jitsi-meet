@@ -114,7 +114,7 @@ Moderator.prototype.onMucMemberLeft = function(jid) {
 Moderator.prototype.setFocusUserJid = function(focusJid) {
     if (!this.focusUserJid) {
         this.focusUserJid = focusJid;
-        logger.info(`Focus jid set to:  ${this.focusUserJid}`);
+        logger.info(`Focus fixed from github jid set to:  ${this.focusUserJid}`);
     }
 };
 
